@@ -1,4 +1,4 @@
-package br.com.kaio.primeira_api;
+package br.com.kaio.primeira_api.service;
 
 import org.springframework.stereotype.Service;
 

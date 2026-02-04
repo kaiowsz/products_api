@@ -1,9 +1,17 @@
-package br.com.kaio.primeira_api;
+package br.com.kaio.primeira_api.service;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ResponseStatusException;
+
+import br.com.kaio.primeira_api.dto.ProdutoRequest;
+import br.com.kaio.primeira_api.dto.ProdutoResponse;
+import br.com.kaio.primeira_api.model.Categoria;
+import br.com.kaio.primeira_api.model.Produto;
+import br.com.kaio.primeira_api.repository.CategoriaRepository;
+import br.com.kaio.primeira_api.repository.ProdutoRepository;
+
 import org.springframework.stereotype.Service;
 
 @Service

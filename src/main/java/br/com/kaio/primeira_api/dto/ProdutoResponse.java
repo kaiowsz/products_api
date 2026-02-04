@@ -1,4 +1,6 @@
-package br.com.kaio.primeira_api;
+package br.com.kaio.primeira_api.dto;
+
+import br.com.kaio.primeira_api.model.Produto;
 
 public class ProdutoResponse {
     private Long id;

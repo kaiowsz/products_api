@@ -1,4 +1,4 @@
-package br.com.kaio.primeira_api;
+package br.com.kaio.primeira_api.dto;
 
 public class StatusResponse {
     private String status;

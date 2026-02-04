@@ -1,4 +1,4 @@
-package br.com.kaio.primeira_api;
+package br.com.kaio.primeira_api.controller;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -16,6 +16,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+import br.com.kaio.primeira_api.dto.ProdutoRequest;
+import br.com.kaio.primeira_api.dto.ProdutoResponse;
+import br.com.kaio.primeira_api.service.ProdutoService;
 import jakarta.validation.Valid;
 
 @RestController

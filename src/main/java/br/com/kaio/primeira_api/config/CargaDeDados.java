@@ -1,8 +1,13 @@
-package br.com.kaio.primeira_api;
+package br.com.kaio.primeira_api.config;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import br.com.kaio.primeira_api.model.Categoria;
+import br.com.kaio.primeira_api.model.Produto;
+import br.com.kaio.primeira_api.repository.CategoriaRepository;
+import br.com.kaio.primeira_api.repository.ProdutoRepository;
 
 @Configuration
 public class CargaDeDados {

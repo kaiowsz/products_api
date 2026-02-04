@@ -1,4 +1,4 @@
-package br.com.kaio.primeira_api;
+package br.com.kaio.primeira_api.config;
 
 import java.util.HashMap;
 import java.util.Map;

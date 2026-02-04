@@ -1,4 +1,4 @@
-package br.com.kaio.primeira_api;
+package br.com.kaio.primeira_api.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
